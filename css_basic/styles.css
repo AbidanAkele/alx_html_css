@@ -5,6 +5,7 @@ main {
 
 body {
  flex-direction: column;
+ background:lightslategrey;
 }
 
 main {

@@ -1,30 +1,323 @@
-header {
- display: flex;
- justify-content: space-between;
- align-items: center;
-}
+ body {
+  background-color: #F2F2F2;
+  color: #333;
+  margin: 0%;
+ }
 
-header nav {
- display: flex;
- align-items: center;
-}
+ /* Header styles */
+ header {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+ }
 
-header nav ul {
- margin: 0;
- padding: 0;
- list-style: none;
-}
+ nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+ }
 
-header nav li {
- margin-right: 20px;
-}
+ nav img {
+  height: 50px;
+ }
 
+ nav ul {
+  display: flex;
+  list-style: none;
+ }
 
-header nav a {
- text-decoration: none;
- color: inherit;
-}
+ nav ul li {
+  margin: 0 15px;
+ }
 
-header {
- padding-right: 20px;
-}
+ nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.1rem;
+ }
+
+ /* Main content styles */
+ main {
+  margin: 0%;
+  padding: 0%;
+ }
+
+ .one {
+  background-image: url("CSS Advanced/Object.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+ }
+
+ .intro {
+  margin: 20px;
+  text-align: center;
+  padding-top: 50px;
+ }
+
+ .intro h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 20px;
+ }
+
+ .learn {
+  margin: 20px;
+  text-align: center;
+ }
+
+ .one span {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #5A5A5A;
+  color: #fff;
+  border-radius: 5px;
+ }
+
+ .one button {
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: #6B47DC;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+
+ .one h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+ }
+
+ section:nth-of-type(1)>div>div {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+ }
+
+ section:nth-of-type(1)>div>div>div {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+ }
+
+ section:nth-of-type(1)>div>div>div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+ }
+
+ /* Section 2 styles */
+ .two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C271FF;
+  padding: 2rem;
+  border-radius: 5px;
+ }
+
+ .two img {
+  /* max-width: 40%; */
+  border-radius: 5px;
+  width: 100%;
+ }
+
+ .two blockquote {
+  font-style: italic;
+  margin-bottom: 1rem;
+ }
+
+ .two h3 {
+  font-size: 1.5rem;
+ }
+
+ .two p {
+  color: #666;
+ }
+
+ /* Section 3 styles */
+ section.videos {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+ }
+
+ section.videos h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+ }
+
+ section.videos .videos-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+ }
+
+ section.videos .video-item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  /* Adjust width as needed */
+  text-align: left;
+ }
+
+ section.videos .video-item img {
+  width: 100%;
+  height: auto;
+ }
+
+ section.videos .video-item h3 {
+  font-size: 1.5em;
+  margin: 10px;
+ }
+
+ section.videos .video-item p {
+  font-size: 1em;
+  margin: 10px;
+  color: #555;
+ }
+
+ section.videos .video-item .author {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+ }
+
+ section.videos .video-item .author img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+ }
+
+ section.videos .video-item .author h4 {
+  font-size: 1em;
+  margin: 0;
+ }
+
+ section.videos .video-item .stars {
+  display: flex;
+  padding: 10px;
+ }
+
+ section.videos .video-item .stars i {
+  color: #ffcc00;
+ }
+
+ section.videos .video-item .duration {
+  padding: 10px;
+  font-size: 1em;
+  color: #999;
+ }
+
+ /* Section 4 styles */
+ .four h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+ }
+
+ .four div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  text-align: center;
+ }
+
+ .four div img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+ }
+
+ body {
+  background-image: url("C:\Users\abi\Desktop\alx_html_css\css_advanced\CSS Advanced\Object.png");
+ }
+
+ .four div h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+ }
+
+ .four button {
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: #6B47DC;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+
+ /* FAQ styles */
+ .five h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+ }
+
+ .five div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+ }
+
+ section:nth-of-type(5)>div>div {
+  flex: 1 1 45%;
+ }
+
+ .five h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+ }
+
+ .five p {
+  margin-bottom: 1rem;
+ }
+
+ /* Footer styles */
+ footer {
+  background: #071629;
+  color: #fff;
+  padding: 2rem 0;
+ }
+
+ footer section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+ }
+
+ footer img {
+  width: 100px;
+  height: 100px;
+ }
+
+ footer div {
+  display: flex;
+  gap: 1rem;
+ }
+
+ footer div i {
+  font-size: 1.5rem;
+  cursor: pointer;
+ }
+
+ footer p {
+  text-align: center;
+  margin-top: 1rem;
+ }
