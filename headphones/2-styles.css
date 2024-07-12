@@ -1,0 +1,38 @@
+#results {
+ background-image: url(images/headphones_hero_2.jpg);
+ color: white;
+ padding: 2rem;
+ text-align: center;
+}
+
+#results h2 {
+ font-size: 2rem;
+ margin-bottom: 1rem;
+}
+
+#results p {
+ font-size: 1rem;
+ color: #bbb;
+ margin-bottom: 2rem;
+}
+
+.hexagons {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.hexagon {
+ width: 100px;
+ height: 100px;
+ background-color: #f44;
+ color: white;
+ text-align: center;
+ line-height: 1.5;
+ margin: 0.5rem;
+ clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 1rem;
+}
